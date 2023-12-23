@@ -1,0 +1,29 @@
+{
+    "name": "next-wiki-search",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+        "dev": "next dev -p 3030",
+        "build": "next build",
+        "start": "next start",
+        "lint": "next lint"
+    },
+    "dependencies": {
+        "next": "14.0.4",
+        "react": "^18",
+        "react-dom": "^18"
+    },
+    "devDependencies": {
+        "@types/node": "^20",
+        "@types/react": "^18",
+        "@types/react-dom": "^18",
+        "@typescript-eslint/eslint-plugin": "^6.12.0",
+        "@typescript-eslint/parser": "^6.12.0",
+        "eslint": "^8",
+        "eslint-config-next": "14.0.4",
+        "eslint-plugin-react-hooks": "^4.6.0",
+        "next-plugin-svgr": "^1.1.10",
+        "sass": "^1.69.5",
+        "typescript": "^5"
+    }
+}

@@ -1,0 +1,33 @@
+.text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.link {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+.article {
+    margin: 1rem;
+}
+
+.article-container {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.img-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.article-item {
+    margin: 1rem;
+    max-width: 32rem;
+}

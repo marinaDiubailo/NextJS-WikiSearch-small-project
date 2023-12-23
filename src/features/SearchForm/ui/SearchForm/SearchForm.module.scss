@@ -1,0 +1,29 @@
+.search-form {
+    display: flex;
+    justify-content: center;
+}
+
+.input {
+    padding: 0.5rem;
+    border-radius: 0.75rem;
+    width: 20rem;
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    background-color: var(--white);
+}
+
+.button {
+    padding: 0.5rem;
+    margin-left: 0.5rem;
+    border-radius: 0.75rem;
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    font-weight: 700;
+    background-color: var(--bg-button);
+}
+
+@media (min-width: 768px) {
+    .search-form {
+        justify-content: space-between;
+    }
+}

@@ -1,0 +1,23 @@
+.navbar {
+    display: flex;
+    position: sticky;
+    background: var(--bg-navbar);
+    top: 0;
+    padding: 1rem;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.home {
+    display: grid;
+    margin-bottom: 0.5rem;
+    place-content: center;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+@media (min-width: 768px) {
+    .navbar {
+        flex-direction: row;
+    }
+}
